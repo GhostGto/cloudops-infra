@@ -35,9 +35,14 @@ terraform output
 ```
 ---
 
+## Docker
+```
 cd monitoring
 docker-compose -f docker-compose-monitoring.yml up -d
-# Edit prometheus.yml and replace BACKEND_HOST with your EC2 IP if needed
+```
+---
+
+- Edit prometheus.yml and replace BACKEND_HOST with your EC2 IP if needed
 
 ---
 
