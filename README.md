@@ -4,19 +4,21 @@ Infrastructure for the CloudOps Portfolio. Includes Terraform IaC for a simple V
 
 ---
 
-## Structure
+## 📂 Repository Structure: `cloudops-infra`
 
-terraform/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-└── ec2_user_data.sh
-monitoring/
-├── docker-compose-monitoring.yml
-└── prometheus.yml
-diagrams/
-├── infra-diagram.mmd
-└── ...
+- 📁 **terraform/**
+  - 📄 main.tf
+  - 📄 variables.tf
+  - 📄 outputs.tf
+  - 📄 ec2_user_data.sh
+
+- 📁 **monitoring/**
+  - 📄 docker-compose-monitoring.yml
+  - 📄 prometheus.yml
+
+- 📁 **diagrams/**
+  - 📄 infra-diagram.mmd
+
 
 ---
 
